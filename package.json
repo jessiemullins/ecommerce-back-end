@@ -3,21 +3,52 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "denque": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "dottie": "^2.0.3",
+    "express": "^4.18.2",
+    "generate-function": "^2.3.1",
+    "iconv-lite": "^0.6.3",
+    "inflection": "^1.13.4",
+    "is-property": "^1.0.2",
+    "lodash": "^4.17.21",
+    "long": "^5.2.3",
+    "lru-cache": "^6.0.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "ms": "^2.1.2",
+    "mysql2": "^3.3.0",
+    "named-placeholders": "^1.1.3",
+    "pg-connection-string": "^2.5.0",
+    "retry-as-promised": "^7.0.4",
+    "safer-buffer": "^2.1.2",
+    "semver": "^7.5.0",
+    "seq-queue": "^0.0.5",
+    "sequelize": "^6.31.1",
+    "sequelize-pool": "^7.1.0",
+    "sqlstring": "^2.3.3",
+    "toposort-class": "^1.0.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.9.0",
+    "wkx": "^0.5.0",
+    "yallist": "^4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jessiemullins/ecommerce-back-end.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jessiemullins/ecommerce-back-end/issues"
   },
-  "homepage": "https://github.com/jessiemullins/ecommerce-back-end#readme",
-  "dependencies": {
-    "sequelize": "^6.31.1"
-  }
+  "homepage": "https://github.com/jessiemullins/ecommerce-back-end#readme"
 }
